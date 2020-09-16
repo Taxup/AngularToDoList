@@ -1,0 +1,12 @@
+<div class="add-item">
+
+  <h1>ToDo List</h1>
+  <form class="add-task">
+    <label for="new-task"></label>
+    <input type="text" placeholder=" New Task" id="new-task" #newItem/>
+
+    <button type="button" class="btn btn-primary" (click)="addNewItem(newItem.value)">Add</button>
+
+  </form>
+
+</div>
